@@ -4,7 +4,7 @@
   h1 {  
     font-family: 'Raleway', sans-serif;  
   }
-  .navbar, #navbar a{
+  nav.navbar.navbar-default.navbar-fixed-top, #navbar, #navbar a {
     background-color: #00a2e8;
     color: white;
   }
@@ -25,5 +25,12 @@
   }
 
   .jumbotron .banner {
-     background-image: url("../images/familyphoto.jpg");
+      background-image: url("../images/familyphoto.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: block;
+      min-height: 400px;
+      width: 100%;
+      margin: 0;
   }
