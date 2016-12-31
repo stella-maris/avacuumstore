@@ -2,7 +2,8 @@
     font-family: 'Open Sans', sans-serif; 
   } 
   h1 {  
-    font-family: 'Raleway', sans-serif;  
+    font-family: 'Raleway', sans-serif;
+    color: white;
   }
   nav.navbar.navbar-default.navbar-fixed-top, #navbar, #navbar a {
     background-color: #00a2e8;
