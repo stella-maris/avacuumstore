@@ -1,0 +1,29 @@
+  body {
+    font-family: 'Open Sans', sans-serif; 
+  } 
+  h1 {  
+    font-family: 'Raleway', sans-serif;  
+  }
+  .navbar, #navbar a{
+    background-color: #00a2e8;
+    color: white;
+  }
+  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: #28BCFC;
+  }
+
+  .navbar-brand {
+    padding: 0;
+  }
+  .navbar-brand img {
+    height: 50px;
+  }
+
+  .jumbotron {
+    background-color: white;
+  }
+
+  .jumbotron .banner {
+     background-image: url("../images/familyphoto.jpg");
+  }
