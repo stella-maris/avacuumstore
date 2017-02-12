@@ -1,37 +1,15 @@
-  body {
-    font-family: 'Open Sans', sans-serif; 
-  } 
-  h1 {  
-    font-family: 'Raleway', sans-serif;
-    color: white;
-  }
-  nav.navbar.navbar-default.navbar-fixed-top, #navbar, #navbar a {
-    background-color: #00a2e8;
-    color: white;
-  }
-  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: white;
-    background-color: #28BCFC;
-  }
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+    color: #00a2e8;
+}
 
-  .navbar-brand {
-    padding: 0;
-  }
-  .navbar-brand img {
-    height: 50px;
-  }
+.navbar.navbar-default, .navbar.navbar-default .nav>li>a{
+    color: #00a2e8;
+}
 
-  .jumbotron {
-    background-color: white;
-  }
-
-  .jumbotron .banner {
-      background-image: url("../images/familyphoto.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      display: block;
-      min-height: 400px;
-      width: 100%;
-      margin: 0;
-  }
+h1 {  
+font-family: 'Raleway', sans-serif;
+color: white;
+}
