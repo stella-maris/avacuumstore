@@ -3,6 +3,7 @@ body {
     font-size: 16px;
     background-color: #fff;
     color: #00a2e8;
+    padding-top: 50px;
 }
 
 .navbar.navbar-default, .navbar.navbar-default .nav>li>a, .navbar.navbar-default .nav .dropdown .dropdown-menu>li>a {
@@ -25,4 +26,36 @@ body {
 h1 {  
 font-family: 'Raleway', sans-serif;
 color: white;
+}
+
+#carouselHome {
+    margin-bottom: 30px;
+}
+
+.contact {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 50px;
+}
+
+.jumbotron {
+    background-image: url("../images/contact-image.png");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:457px;
+}
+
+.contact-info {
+    font-size: 2em;
+}
+
+iframe {
+    margin-top: 20px;
+}
+
+footer {
+    padding: 30px 0px; 
 }
