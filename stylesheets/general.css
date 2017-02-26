@@ -28,6 +28,10 @@ font-family: 'Raleway', sans-serif;
 color: white;
 }
 
+h3 {
+    color: #ab01bd;
+}
+
 #carouselHome {
     margin-bottom: 30px;
 }
