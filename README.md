@@ -1,37 +1,10 @@
 ## Welcome to A Vacuum Store
 
-You can use the [editor on GitHub](https://github.com/stella-maris/avacuumstore/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is the repository for a simple family owned and operated business website.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### Framework and Libraries used:
+``` markdown
+The specifications and requirements for this website is to focus on
+generating and directing customers to contact the business.
+Thus, the primary focus is to provide a clean layout in HTML and CSS.
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/stella-maris/avacuumstore/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

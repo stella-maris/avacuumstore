@@ -6,7 +6,11 @@ body {
     padding-top: 50px;
 }
 
-.navbar.navbar-default, .navbar.navbar-default .nav>li>a, .navbar.navbar-default .nav .dropdown .dropdown-menu>li>a {
+.navbar.navbar-default {
+    margin-bottom: 0px;
+}
+
+.navbar.navbar-default, .navbar.navbar-default .nav>li>a, .navbar.navbar-default .nav .dropdown .dropdown-menu>li>a, footer h3 {
     color: #00a2e8;
 }
 
@@ -23,29 +27,46 @@ body {
     top: -15px;
 }
 
-h1 {  
-font-family: 'Raleway', sans-serif;
-color: white;
+.carousel-inner {
+    min-height: 550px;
 }
 
-h3 {
-    color: #ab01bd;
+.home {
+/*    background-color: white;*/
+    z-index: 10;
+    background: rgba(255,255,255,.5);
+    padding: 40px 10px;
 }
 
-#carouselHome {
-    margin-bottom: 30px;
+.home h1 {  
+    font-family: 'Raleway', sans-serif;
+    color: #0ebb05;
+    margin-bottom: 20px;
 }
 
-.contact {
+.home p {
+    font-size: 28px;
+}
+
+.wallpaper {
+    background-image: url("../images/carpet.png");
+    background-repeat: no-repeat;
+}
+
+.contact-banner {
+    background-image: url("../images/contact-image.png");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:460px;
     color: white;
     text-align: center;
     font-size: 50px;
     position: relative;
-    top: 50px;
 }
 
-.jumbotron {
-    background-image: url("../images/contact-image.png");
+.about-vacuum-store {
+    background-image: url("../images/familyphoto1.png");
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,6 +75,10 @@ h3 {
 
 .contact-info {
     font-size: 2em;
+}
+
+table td {
+    padding: 0px 10px;
 }
 
 iframe {
