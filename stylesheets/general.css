@@ -1,0 +1,110 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+    color: #00a2e8;
+    padding-top: 50px;
+}
+
+.navbar.navbar-default {
+    margin-bottom: 0px;
+}
+
+.navbar.navbar-default, .navbar.navbar-default .nav>li>a, .navbar.navbar-default .nav .dropdown .dropdown-menu>li>a, footer h3 {
+    color: #00a2e8;
+}
+
+.navbar-default .avacuum .navbar-toggle,.navbar-default .avacuum .navbar-toggle:hover {
+    border-color: #00a2e8;
+    background-color: #fff;
+}
+
+.navbar-default .avacuum .navbar-toggle .icon-bar {
+    background-color: #00a2e8;
+}
+.navbar-brand img {
+    position: relative;
+    top: -15px;
+}
+
+
+.home {
+/*    background-color: white;*/
+    z-index: 10;
+    background: rgba(255,255,255,.5);
+    padding: 40px 10px;
+    font-size: 28px;
+}
+
+.home h1 {  
+    font-family: 'Raleway', sans-serif;
+    color: #0ebb05;
+    margin-bottom: 20px;
+}
+
+.wallpaper1 {
+    background-image: url("../images/residential.png");
+    min-height: 850px;
+    height: 100%;
+}
+
+.wallpaper1, .wallpaper2 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wallpaper2  {
+    background-image: url("../images/grey_carpet.png");
+    min-height: 350px;
+    height: 100%;   
+}
+
+.container2 {
+    background-color: #0ebb05;
+    opacity: 0.65;
+    color: #fff;
+}
+
+
+/*CONTACT PAGE STYLE*/
+.contact-banner {
+    background-image: url("../images/contact-image.png");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:460px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+}
+.contact-info {
+/*    font-size: 2em;*/
+}
+
+/*ABOUT PAGE STYLE*/
+.about-vacuum-store {
+    background-image: url("../images/familyphoto1.png");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:457px;
+}
+
+
+
+table td {
+    padding: 0px 10px;
+}
+
+iframe {
+    margin-top: 20px;
+}
+
+footer {
+    padding: 30px 0px; 
+}
