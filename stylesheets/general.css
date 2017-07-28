@@ -36,6 +36,7 @@ body {
     z-index: 10;
     background: rgba(255,255,255,.5);
     padding: 40px 10px;
+    font-size: 28px;
 }
 
 .home h1 {  
@@ -44,15 +45,27 @@ body {
     margin-bottom: 20px;
 }
 
-.home p {
-    font-size: 28px;
+.wallpaper1 {
+    background-image: url("../images/residential.png");
+    min-height: 850px;
+    height: 100%;
 }
 
-.wallpaper {
-/*
-    background-image: url("../images/carpet.png");
+.wallpaper1, .wallpaper2 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-*/
+    background-size: cover;
+}
+
+.wallpaper2  {
+    background-image: url("../images/grey_carpet.png");
+    min-height: 200px;
+    height: 100%;
+    
+    
 }
 
 .contact-banner {
