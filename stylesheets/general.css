@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     background-color: #fff;
     color: #00a2e8;
     padding-top: 50px;
@@ -8,6 +8,7 @@ body {
 
 .navbar.navbar-default {
     margin-bottom: 0px;
+    font-size: 20px;
 }
 
 .navbar.navbar-default, .navbar.navbar-default .nav>li>a, .navbar.navbar-default .nav .dropdown .dropdown-menu>li>a, footer h3 {
@@ -43,7 +44,7 @@ body {
 }
 
 .wallpaper1 {
-    background-image: url("../images/residential.png");
+    background-image: url("../images/home/residential.png");
     min-height: 850px;
     height: 100%;
 }
@@ -57,9 +58,22 @@ body {
     background-size: cover;
 }
 
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #f7f7f7;
+}
+
+img {
+    width: 100%;
+}
+
 .wallpaper2  {
-    background-image: url("../images/grey_carpet.png");
-    min-height: 350px;
+    background-image: url("../images/home/grey_carpet.png");
+    min-height: 250px;
     height: 100%;   
 }
 
