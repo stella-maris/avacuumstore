@@ -11,7 +11,7 @@ body {
     font-size: 20px;
 }
 
-.navbar.navbar-default, .navbar.navbar-default .nav>li>a, .navbar.navbar-default .nav .dropdown .dropdown-menu>li>a, footer h3 {
+.navbar.navbar-default, .navbar.navbar-default .nav>li>a, .navbar.navbar-default .nav .dropdown .dropdown-menu>li>a, footer h3, .header1 {
     color: #00a2e8;
 }
 
@@ -47,11 +47,11 @@ body {
     background-image: url("../images/home/residential.png");
     min-height: 850px;
     height: 100%;
+    /*    opacity: 0.65;*/
 }
 
 .wallpaper1, .wallpaper2 {
     position: relative;
-    opacity: 0.65;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -76,13 +76,6 @@ img {
     min-height: 250px;
     height: 100%;   
 }
-
-.container2 {
-    background-color: #0ebb05;
-    opacity: 0.65;
-    color: #fff;
-}
-
 
 /*CONTACT PAGE STYLE*/
 .contact-banner {
