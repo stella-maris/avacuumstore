@@ -11,7 +11,7 @@ body {
     font-size: 20px;
 }
 
-.navbar.navbar-default, .navbar.navbar-default .nav>li>a, .navbar.navbar-default .nav .dropdown .dropdown-menu>li>a, footer h3 {
+.navbar.navbar-default, .navbar.navbar-default .nav>li>a, .navbar.navbar-default .nav .dropdown .dropdown-menu>li>a, footer h3, .header1 {
     color: #00a2e8;
 }
 
@@ -30,14 +30,22 @@ body {
 
 
 .home {
-/*    background-color: white;*/
     z-index: 10;
     background: rgba(255,255,255,.5);
+    padding: 100px 10px 0px;
+    font-size: 28px;
+}
+
+.thin-container {
     padding: 40px 10px;
     font-size: 28px;
 }
 
-.home h1 {  
+.button-div {
+    padding: 30px 0px;
+}
+
+h1 {  
     font-family: 'Raleway', sans-serif;
     color: #0ebb05;
     margin-bottom: 20px;
@@ -47,11 +55,11 @@ body {
     background-image: url("../images/home/residential.png");
     min-height: 850px;
     height: 100%;
+    /*    opacity: 0.65;*/
 }
 
-.wallpaper1, .wallpaper2 {
+.wallpaper1, .wallpaper2, .parallax {
     position: relative;
-    opacity: 0.65;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -73,16 +81,17 @@ img {
 
 .wallpaper2  {
     background-image: url("../images/home/grey_carpet.png");
-    min-height: 250px;
+/*    min-height: 250px;*/
     height: 100%;   
 }
 
-.container2 {
-    background-color: #0ebb05;
-    opacity: 0.65;
-    color: #fff;
+.wallpaper2.modified {
+    min-height: 200px;
 }
 
+.thin-container div {
+    text-align: center;
+}
 
 /*CONTACT PAGE STYLE*/
 .contact-banner {
@@ -109,7 +118,17 @@ img {
     height:457px;
 }
 
+.dragan-img, .brother-img, .silvija-img {
+    height: 100%;
+    font-size: 20px;
+}
 
+.dragan-img {
+}
+
+.brother-img {}
+
+.silvija-img {}
 
 table td {
     padding: 0px 10px;
