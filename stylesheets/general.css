@@ -58,7 +58,7 @@ h1 {
     /*    opacity: 0.65;*/
 }
 
-.wallpaper1, .wallpaper2 {
+.wallpaper1, .wallpaper2, .parallax {
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -89,6 +89,10 @@ img {
     min-height: 200px;
 }
 
+.thin-container div {
+    text-align: center;
+}
+
 /*CONTACT PAGE STYLE*/
 .contact-banner {
     background-image: url("../images/contact-image.png");
@@ -114,7 +118,17 @@ img {
     height:457px;
 }
 
+.dragan-img, .brother-img, .silvija-img {
+    height: 100%;
+    font-size: 20px;
+}
 
+.dragan-img {
+}
+
+.brother-img {}
+
+.silvija-img {}
 
 table td {
     padding: 0px 10px;
