@@ -5,7 +5,26 @@ body {
     color: #00a2e8;
     padding-top: 50px;
 }
+h1 {  
+    font-family: 'Raleway', sans-serif;
+    color: #0ebb05;
+    margin-bottom: 20px;
+}
 
+.thin-container {
+    padding: 40px 10px;
+    font-size: 28px;
+} 
+
+.thin-container div {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+/*NAVBAR STYLE*/
 .navbar.navbar-default {
     margin-bottom: 0px;
     font-size: 20px;
@@ -28,7 +47,7 @@ body {
     top: -15px;
 }
 
-
+/* HOME */
 .home {
     z-index: 10;
     background: rgba(255,255,255,.5);
@@ -36,19 +55,8 @@ body {
     font-size: 28px;
 }
 
-.thin-container {
-    padding: 40px 10px;
-    font-size: 28px;
-}
-
 .button-div {
     padding: 30px 0px;
-}
-
-h1 {  
-    font-family: 'Raleway', sans-serif;
-    color: #0ebb05;
-    margin-bottom: 20px;
 }
 
 .wallpaper1 {
@@ -75,10 +83,6 @@ h1 {
     color: #f7f7f7;
 }
 
-img {
-    width: 100%;
-}
-
 .wallpaper2  {
     background-image: url("../images/home/grey_carpet.png");
 /*    min-height: 250px;*/
@@ -87,10 +91,6 @@ img {
 
 .wallpaper2.modified {
     min-height: 200px;
-}
-
-.thin-container div {
-    text-align: center;
 }
 
 /*CONTACT PAGE STYLE*/
@@ -129,6 +129,8 @@ img {
 .brother-img {}
 
 .silvija-img {}
+/* SERVICES PAGE STYLE */
+/* PRODUCTS PAGE STYLE */
 
 table td {
     padding: 0px 10px;
