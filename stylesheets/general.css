@@ -6,8 +6,9 @@ body {
     padding-top: 50px;
 }
 h1 {  
-    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
     color: #0ebb05;
+    margin-top: 0px !important;
     margin-bottom: 20px;
 }
 
@@ -31,6 +32,7 @@ img {
 }
 
 .navbar.navbar-default, .navbar.navbar-default .nav>li>a, .navbar.navbar-default .nav .dropdown .dropdown-menu>li>a, footer h3, .header1 {
+    font-family: 'Permanent Marker', cursive;
     color: #00a2e8;
 }
 
@@ -52,7 +54,7 @@ img {
     z-index: 10;
     background: rgba(255,255,255,.5);
     padding: 100px 10px 0px;
-    font-size: 28px;
+    font-size: 25px;
 }
 
 .button-div {
@@ -64,7 +66,9 @@ img {
     min-height: 850px;
     height: 100%;
     /*    opacity: 0.65;*/
+    text-align: center;
 }
+
 
 .wallpaper1, .wallpaper2, .parallax {
     position: relative;
@@ -74,10 +78,21 @@ img {
     background-size: cover;
 }
 
+.banner-content {
+    position: sticky;
+    top: 40%;
+}
+
+.logo img{
+    width: 325px
+}
+
 .caption {
+/*
     position: absolute;
     top: 50%;
     left: 0;
+*/
     width: 100%;
     text-align: center;
     color: #f7f7f7;
@@ -106,7 +121,6 @@ img {
     position: relative;
 }
 .contact-info {
-/*    font-size: 2em;*/
 }
 
 /*ABOUT PAGE STYLE*/
@@ -131,6 +145,9 @@ img {
 .silvija-img {}
 /* SERVICES PAGE STYLE */
 /* PRODUCTS PAGE STYLE */
+.wallpaper3 {
+    background-image: url("../images/hardwood.jpg");
+}
 
 table td {
     padding: 0px 10px;
