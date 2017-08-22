@@ -53,7 +53,7 @@ img {
 .home {
     z-index: 10;
     background: rgba(255,255,255,.5);
-    padding: 100px 10px 0px;
+    padding: 100px 10px;
     font-size: 25px;
 }
 
@@ -110,17 +110,20 @@ img {
 
 /*CONTACT PAGE STYLE*/
 .contact-banner {
-    background-image: url("../images/contact-image.png");
+    background-image: url("../images/contact/contact.jpg");
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
     height:460px;
     color: white;
     text-align: center;
     font-size: 50px;
     position: relative;
 }
-.contact-info {
+
+.wallpaper5 {
+    background-image: url("../images/tile.jpg");
 }
 
 /*ABOUT PAGE STYLE*/
@@ -132,9 +135,12 @@ img {
     height:457px;
 }
 
+.wallpaper6 {
+    background-image: url("../images/laminate.jpg");
+}
+
 .dragan-img, .brother-img, .silvija-img {
     height: 100%;
-    font-size: 20px;
 }
 
 .dragan-img {
@@ -143,7 +149,11 @@ img {
 .brother-img {}
 
 .silvija-img {}
+
 /* SERVICES PAGE STYLE */
+.wallpaper4 {
+    background-image: url("../images/contact/marble.jpg");
+}
 /* PRODUCTS PAGE STYLE */
 .wallpaper3 {
     background-image: url("../images/hardwood.jpg");
