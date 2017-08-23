@@ -70,7 +70,7 @@ img {
 }
 
 
-.wallpaper1, .wallpaper2, .parallax {
+.wallpaper1, .wallpaper2, .parallax, .services-banner {
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -151,6 +151,11 @@ img {
 .silvija-img {}
 
 /* SERVICES PAGE STYLE */
+.services-banner {
+    background-image: url("../images/repairs.jpg");
+    min-height: 850px;
+    height: 100%;
+}
 .wallpaper4 {
     background-image: url("../images/contact/marble.jpg");
 }
