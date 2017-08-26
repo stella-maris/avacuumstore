@@ -25,6 +25,27 @@ img {
     width: 100%;
 }
 
+.banner {
+    background-position: center top;
+    width: 100%;
+    height:460px;
+    color: white;
+}
+
+/*PARALLAX STYLE*/
+.wallpaper1, .wallpaper2, .parallax, .banner {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-content {
+    position: sticky;
+    top: 40%;
+}
+
 /*NAVBAR STYLE*/
 .navbar.navbar-default {
     margin-bottom: 0px;
@@ -69,30 +90,11 @@ img {
     text-align: center;
 }
 
-
-.wallpaper1, .wallpaper2, .parallax, .services-banner {
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.banner-content {
-    position: sticky;
-    top: 40%;
-}
-
 .logo img{
     width: 325px
 }
 
 .caption {
-/*
-    position: absolute;
-    top: 50%;
-    left: 0;
-*/
     width: 100%;
     text-align: center;
     color: #f7f7f7;
@@ -111,12 +113,6 @@ img {
 /*CONTACT PAGE STYLE*/
 .contact-banner {
     background-image: url("../images/contact/contact.jpg");
-    background-position: center top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height:460px;
-    color: white;
     text-align: center;
     font-size: 50px;
     position: relative;
@@ -129,10 +125,6 @@ img {
 /*ABOUT PAGE STYLE*/
 .about-vacuum-store {
     background-image: url("../images/familyphoto1.png");
-    background-position: center top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height:457px;
 }
 
 .wallpaper6 {
@@ -153,8 +145,6 @@ img {
 /* SERVICES PAGE STYLE */
 .services-banner {
     background-image: url("../images/repairs.jpg");
-    min-height: 850px;
-    height: 100%;
 }
 .wallpaper4 {
     background-image: url("../images/contact/marble.jpg");
