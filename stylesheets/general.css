@@ -26,7 +26,6 @@ img {
 }
 
 .banner {
-    background-position: center top;
     width: 100%;
     height:460px;
     color: white;
@@ -40,7 +39,6 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .banner-content {
     position: sticky;
     top: 40%;
@@ -51,17 +49,14 @@ img {
     margin-bottom: 0px;
     font-size: 20px;
 }
-
 .navbar.navbar-default, .navbar.navbar-default .nav>li>a, .navbar.navbar-default .nav .dropdown .dropdown-menu>li>a, footer h3, .header1 {
     font-family: 'Permanent Marker', cursive;
     color: #00a2e8;
 }
-
 .navbar-default .avacuum .navbar-toggle,.navbar-default .avacuum .navbar-toggle:hover {
     border-color: #00a2e8;
     background-color: #fff;
 }
-
 .navbar-default .avacuum .navbar-toggle .icon-bar {
     background-color: #00a2e8;
 }
@@ -77,11 +72,9 @@ img {
     padding: 100px 10px;
     font-size: 25px;
 }
-
 .button-div {
     padding: 30px 0px;
 }
-
 .wallpaper1 {
     background-image: url("../images/home/residential.png");
     min-height: 850px;
@@ -89,48 +82,30 @@ img {
     /*    opacity: 0.65;*/
     text-align: center;
 }
-
 .logo img{
     width: 325px
 }
-
 .caption {
     width: 100%;
     text-align: center;
     color: #f7f7f7;
 }
-
 .wallpaper2  {
     background-image: url("../images/home/grey_carpet.png");
 /*    min-height: 250px;*/
     height: 100%;   
 }
-
 .wallpaper2.modified {
     min-height: 200px;
-}
-
-/*CONTACT PAGE STYLE*/
-.contact-banner {
-    background-image: url("../images/contact/contact.jpg");
-    text-align: center;
-    font-size: 50px;
-    position: relative;
-}
-
-.wallpaper5 {
-    background-image: url("../images/tile.jpg");
 }
 
 /*ABOUT PAGE STYLE*/
 .about-vacuum-store {
     background-image: url("../images/familyphoto1.png");
 }
-
 .wallpaper6 {
     background-image: url("../images/laminate.jpg");
 }
-
 .dragan-img, .brother-img, .silvija-img {
     height: 100%;
 }
@@ -144,16 +119,35 @@ img {
 
 /* SERVICES PAGE STYLE */
 .services-banner {
-    background-image: url("../images/repairs.jpg");
+    background-image: url("../images/repair/repairs.jpg");
+}
+.vacuum-repair {
+    text-align: center;
+}
+.vacuum-repair img {
+    max-width: 640px;
 }
 .wallpaper4 {
     background-image: url("../images/contact/marble.jpg");
 }
+
 /* PRODUCTS PAGE STYLE */
 .wallpaper3 {
     background-image: url("../images/hardwood.jpg");
 }
 
+/*CONTACT PAGE STYLE*/
+.contact-banner {
+    background-image: url("../images/contact/contact.jpg");
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+}
+.wallpaper5 {
+    background-image: url("../images/tile.jpg");
+}
+
+/* FOOTER STYLE */
 table td {
     padding: 0px 10px;
 }
