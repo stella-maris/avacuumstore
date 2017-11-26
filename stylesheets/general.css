@@ -91,6 +91,10 @@ img {
 }
 
 /* HOME */
+.avacuum {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px; 
+}
 .avacuum h1 {  
     font-size: 50px;
     margin-top: 20px;
@@ -166,6 +170,9 @@ img {
 
 
 /* FOOTER STYLE */
+footer.avacuum {
+    font-size: 16px;
+}
 table td {
     padding: 0px 10px;
 }
