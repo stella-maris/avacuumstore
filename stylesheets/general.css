@@ -1,15 +1,10 @@
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 20px;
     background-color: #fff;
     color: #00a2e8;
     padding-top: 50px;
-}
-h1 {  
-    font-size: 50px;
-    color: #0ebb05;
-    margin-top: 0px !important;
-    margin-bottom: 20px;
 }
 
 .thin-container {
@@ -78,8 +73,8 @@ img {
     margin-bottom: 0px;
     font-size: 20px;
 }
-.navbar.navbar-default, .navbar.navbar-default .nav>li>a, .navbar.navbar-default .nav .dropdown .dropdown-menu>li>a, footer h3, .header1 {
-    font-family: 'Permanent Marker', cursive;
+.navbar.navbar-default, .navbar.navbar-default .nav>li>a, .navbar.navbar-default .nav .dropdown .dropdown-menu>li>a, footer h3 {
+    font-family: 'Comfortaa', cursive;
     color: #00a2e8;
 }
 .navbar-default .avacuum .navbar-toggle,.navbar-default .avacuum .navbar-toggle:hover {
@@ -96,6 +91,16 @@ img {
 }
 
 /* HOME */
+.avacuum h1 {  
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}    
+.header1 {
+    font-family: 'Lobster', cursive;
+    color: #00a2e8;
+    font-size: 42px;
+}
 .home {
     z-index: 10;
     background: rgba(255,255,255,.5);
@@ -114,7 +119,10 @@ img {
     text-align: center;
     color: #f7f7f7;
 }
-
+.thin-container {
+    background-color: #00a2e8;
+    color: #fff;
+}
 
 /*ABOUT PAGE STYLE*/
 .about-vacuum-store {
