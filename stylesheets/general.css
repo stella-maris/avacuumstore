@@ -27,7 +27,7 @@ img {
 }
 /*WALLPAPERS*/
 .wallpaper1 {
-    background-image: url("../images/home/residential.png");
+    background-image: url("../images/repair/repairs.jpg");
     min-height: 850px;
     height: 100%;
     /*    opacity: 0.65;*/
@@ -39,7 +39,7 @@ img {
     height: 100%;   
 }
 .wallpaper2.modified {
-    min-height: 200px;
+    min-height: 100px;
 }
 .wallpaper3 {
     background-image: url("../images/hardwood.jpg");
@@ -56,7 +56,7 @@ img {
 
 
 /*PARALLAX STYLE*/
-.wallpaper1, .wallpaper2, .parallax, .banner {
+.wallpaper1, .parallax, .banner {
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -120,6 +120,10 @@ img {
     padding: 50px 10px 25px;
     font-size: 25px;
 }
+.products-row, .services-row {
+    margin-bottom: 50px;
+}
+
 .button-div {
     padding: 30px 0px;
 }
@@ -155,7 +159,7 @@ img {
 
 /* SERVICES PAGE STYLE */
 .services-banner {
-    background-image: url("../images/repair/repairs.jpg");
+    background-image: url("../images/home/residential.png");
 }
 
 .vacuum-repair {
@@ -171,7 +175,7 @@ img {
 .products-banner {
     background-image: url("../images/accessories/products.png");
     background-position: center top;
-    background-size: 100% 100%;
+    background-size: 100% 83%;
     
 }
 
