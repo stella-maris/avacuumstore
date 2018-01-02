@@ -175,10 +175,19 @@ img {
 .products-banner {
     background-image: url("../images/accessories/products.png");
     background-position: center top;
-    background-size: 100% 83%;
-    
+    background-size: 100% 83%;    
 }
-
+#productsTab {
+    font-size: 21px;
+}
+#productsTab.nav-tabs {
+    border-bottom: 1px solid #00a2e8;
+}
+#productsTab.nav-tabs .nav-link.active {
+    color: #00a2e8;
+    background-color: transparent;
+    border-color: #00a2e8 #00a2e8 #fff;
+}
 /*CONTACT PAGE STYLE*/
 .contact-banner {
     background-image: url("../images/contact/confetti.jpg");
@@ -205,4 +214,7 @@ iframe {
 
 footer {
     padding: 30px 0px; 
+}
+.avacuum td:first-child {
+    padding-right: 5px;
 }
