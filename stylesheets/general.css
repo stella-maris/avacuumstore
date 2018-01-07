@@ -27,7 +27,7 @@ img {
 }
 /*WALLPAPERS*/
 .wallpaper1 {
-    background-image: url("../images/repair/repairs.jpg");
+    background-image: url("../images/home/home.jpg");
     min-height: 850px;
     height: 100%;
     /*    opacity: 0.65;*/
@@ -141,6 +141,10 @@ img {
     color: #fff;
 }
 
+/* SCROLL DOWN BUTTON CODEPEN FROM NAOYA*/
+ 
+
+
 /*ABOUT PAGE STYLE*/
 .about-vacuum-store {
     background-image: url("../images/familyphoto1.png");
@@ -173,7 +177,7 @@ img {
 
 /* PRODUCTS PAGE STYLE */
 .products-banner {
-    background-image: url("../images/accessories/products.png");
+    background-image: url("../images/accessories/products.jpg");
     background-position: center top;
     background-size: 100% 83%;    
 }
@@ -190,7 +194,7 @@ img {
 }
 /*CONTACT PAGE STYLE*/
 .contact-banner {
-    background-image: url("../images/contact/confetti.jpg");
+    background-image: url("../images/contact/confetti_large.png");
     text-align: center;
     font-size: 50px;
     position: relative;
@@ -217,4 +221,8 @@ footer {
 }
 .avacuum td:first-child {
     padding-right: 5px;
+}
+
+.testimonial {
+    font-size: 14px;
 }
