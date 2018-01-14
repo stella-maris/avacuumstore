@@ -235,6 +235,13 @@ footer.avacuum {
 
 iframe {
     margin-top: 20px;
+    width: 400px;
+}
+
+@media (max-width: 767px) {
+    iframe {
+        width: 100%;
+    }
 }
 
 footer {
