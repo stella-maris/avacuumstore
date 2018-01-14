@@ -25,6 +25,35 @@ img {
     height:460px;
     color: white;
 }
+
+/*PARALLAX STYLE*/
+.wallpaper1, .parallax, .banner {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 550px;
+}
+.banner-content {
+    position: sticky;
+    top: 40%;
+}
+@media (max-width: 767px) {
+    .banner-content {
+        position: relative;
+        top: 190px; 
+    }
+}
+
+.services-banner .header1, .contact-banner .header1 {
+    text-align: center;
+    margin: auto 0;
+    position: sticky;
+    top: 40%;
+    font-size: 72px;
+}
+
 /*WALLPAPERS*/
 .wallpaper1 {
     background-image: url("../images/home/home.jpg");
@@ -33,8 +62,15 @@ img {
     /*    opacity: 0.65;*/
     text-align: center;
 }
+@media (max-width: 767px) {
+    .wallpaper1 {
+        min-height: 685px;
+        background-size: cover;
+        background-position: bottom right;
+    }
+}
 .wallpaper2  {
-    background-image: url("../images/home/grey_carpet.png");
+    background-image: url("../images/home/greycarpet.png");
 /*    min-height: 250px;*/
     height: 100%;   
 }
@@ -54,28 +90,6 @@ img {
     background-image: url("../images/laminate.jpg");   
 }
 
-
-/*PARALLAX STYLE*/
-.wallpaper1, .parallax, .banner {
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 550px;
-}
-.banner-content {
-    position: sticky;
-    top: 40%;
-}
-
-.services-banner .header1, .contact-banner .header1 {
-    text-align: center;
-    margin: auto 0;
-    position: sticky;
-    top: 40%;
-    font-size: 72px;
-}
 
 /*NAVBAR STYLE*/
 .navbar.navbar-default {
