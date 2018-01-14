@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Comfortaa', cursive;
     font-size: 20px;
@@ -69,11 +68,13 @@ img {
         background-position: bottom right;
     }
 }
+/*
 .wallpaper2  {
     background-image: url("../images/home/greycarpet.png");
-/*    min-height: 250px;*/
+    min-height: 250px;
     height: 100%;   
 }
+*/
 .wallpaper2.modified {
     min-height: 100px;
 }
@@ -124,9 +125,10 @@ img {
     margin-bottom: 20px;
 }    
 .header1 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
     color: #00a2e8;
     font-size: 42px;
+    font-weight: 700;
 }
 .home {
     z-index: 10;
@@ -143,7 +145,12 @@ img {
 }
 
 .logo img{
-    width: 325px
+    width: 500px;
+}
+@media (max-width: 767px) {
+    .logo img {
+        width: 325px;
+    }
 }
 .caption {
     width: 100%;
@@ -215,7 +222,7 @@ img {
 }
 
 .contact h3 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
     color: #00a2e8;
     font-size: 30px;
 }
