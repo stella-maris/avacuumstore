@@ -208,7 +208,7 @@ img {
 #productsTab.nav-tabs {
     border-bottom: 1px solid #00a2e8;
 }
-#productsTab.nav-tabs .nav-link.active {
+#productsTab.nav-tabs>li.active>a {
     color: #00a2e8;
     background-color: transparent;
     border-color: #00a2e8 #00a2e8 #fff;
