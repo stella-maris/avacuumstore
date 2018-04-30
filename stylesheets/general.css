@@ -213,6 +213,16 @@ img {
     background-color: transparent;
     border-color: #00a2e8 #00a2e8 #fff;
 }
+
+.central-vac div {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.central-vac img {
+    height: 355px;
+}
+
 /*CONTACT PAGE STYLE*/
 .contact-banner {
     background-image: url("../images/contact/confetti_large.png");
