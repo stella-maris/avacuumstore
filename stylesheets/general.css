@@ -42,16 +42,25 @@ img {
 @media (max-width: 767px) {
     .banner-content {
         position: relative;
-        top: 190px; 
+        top: 190px;
+        left: 0;
     }
 }
 
 .services-banner .header1, .contact-banner .header1 {
     text-align: center;
     margin: auto 0;
-    position: sticky;
+    position: absolute;
     top: 40%;
+    left: 525px;
     font-size: 72px;
+}
+
+@media (max-width: 767px) {
+    .services-banner .header1, .contact-banner .header1{
+        position: relative;
+        left: 0;
+    }
 }
 
 /*WALLPAPERS*/
