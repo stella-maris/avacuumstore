@@ -39,13 +39,7 @@ img {
     top: 200px;
     left: 45px;
 }
-@media (max-width: 767px) {
-    .banner-content {
-        position: relative;
-        top: 190px;
-        left: 0;
-    }
-}
+
 
 .services-banner .header1, .contact-banner .header1 {
     text-align: center;
@@ -56,12 +50,6 @@ img {
     font-size: 72px;
 }
 
-@media (max-width: 767px) {
-    .services-banner .header1, .contact-banner .header1{
-        position: relative;
-        left: 0;
-    }
-}
 
 /*WALLPAPERS*/
 .wallpaper1 {
@@ -71,13 +59,7 @@ img {
     /*    opacity: 0.65;*/
     text-align: center;
 }
-@media (max-width: 767px) {
-    .wallpaper1 {
-        min-height: 685px;
-        background-size: cover;
-        background-position: bottom right;
-    }
-}
+
 /*
 .wallpaper2  {
     background-image: url("../images/home/greycarpet.png");
@@ -144,11 +126,17 @@ img {
     z-index: 10;
     background: rgba(255,255,255,.5);
     padding: 50px 10px 25px;
-    font-size: 25px;
+    font-size: 21px;
 }
 .products-row, .services-row {
     margin-bottom: 50px;
 }
+
+.services-row iframe {
+    width: 600px;
+    height: 400px;
+}
+
 
 .button-div {
     padding: 30px 0px;
@@ -157,11 +145,7 @@ img {
 .logo img{
     width: 500px;
 }
-@media (max-width: 767px) {
-    .logo img {
-        width: 325px;
-    }
-}
+
 .caption {
     width: 100%;
     text-align: center;
@@ -258,11 +242,13 @@ iframe {
     width: 400px;
 }
 
+/*
 @media (max-width: 767px) {
     iframe {
         width: 100%;
     }
 }
+*/
 
 footer {
     padding: 30px 0px; 
@@ -278,4 +264,31 @@ footer {
 .copyright {
     font-size: 14px;
     margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+    .logo img {
+        width: 325px;
+    }
+    .wallpaper1 {
+        min-height: 685px;
+        background-size: cover;
+        background-position: bottom right;
+    }
+    .banner-content {
+        position: relative;
+        top: 190px;
+        left: 0;
+    }
+    .services-banner .header1, .contact-banner .header1{
+        position: relative;
+        left: 0;
+    }
+    .home-sales-img {
+        display: none;
+    }
+    .services-row iframe {
+        width: 380px;
+        height: 300px;
+    }
 }
