@@ -10,7 +10,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans:400,700" rel="stylesheet">family=Comfortaa|Open+Sans:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans:400,700" rel="stylesheet">
         <title>A Vacuum Store and Service - Contact Us</title>
     </head>
     <body>
@@ -113,6 +113,29 @@
                     <div class="col-xs-12 col-md-6">
                         <h3>Location:</h3>
                             <p>Unit 218 4600 130 Avenue S.E.<br />Calgary, AB, T2Z 0C2</p>    
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div id="form-messages"></div>
+                        <form id="ajax-contact" method="post" action="../mailer.php">
+                            <div class="field">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="field">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="field">
+                                <label for="message">Message:</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+
+                            <div class="field">
+                                <button type="submit">Send</button>
+                            </div>
+                        </form>
                     </div>
                     <div class="col-xs-12 col-md-6">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.5275544626215!2d-113.97199508435486!3d50.93245597954484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717777d11ebce5%3A0x811396ef8d138c5c!2sA+Vacuum+Store+%26+Service+Inc!5e0!3m2!1sen!2sca!4v1487032202422" max-width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
