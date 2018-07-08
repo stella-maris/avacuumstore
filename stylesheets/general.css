@@ -207,7 +207,15 @@ img {
     background-color: transparent;
     border-color: #00a2e8 #00a2e8 #fff;
 }
-
+.vacuumList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.vacuumList li {
+    width: 20%;
+}
 .central-vac div {
     padding-bottom: 15px;
     text-align: center;
