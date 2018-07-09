@@ -151,7 +151,8 @@ img {
     text-align: center;
     color: #f7f7f7;
 }
-.thin-container {
+.color-block {
+    width:  100%;
     background-color: #00a2e8;
     color: #fff;
 }
@@ -194,7 +195,7 @@ img {
 .products-banner {
     background-image: url("../images/accessories/products.jpg");
     background-position: center top;
-    background-size: 100% 83%;    
+    background-size: 100% 35%;    
 }
 #productsTab {
     font-size: 21px;
@@ -207,6 +208,9 @@ img {
     background-color: transparent;
     border-color: #00a2e8 #00a2e8 #fff;
 }
+.vacuum-brands {
+    padding: 30px 0px;
+}
 .vacuumList {
     display: flex;
     flex-direction: row;
@@ -215,6 +219,7 @@ img {
 }
 .vacuumList li {
     width: 20%;
+    padding: 5px 0px;
 }
 .central-vac div {
     padding-bottom: 15px;
