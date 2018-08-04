@@ -195,7 +195,7 @@ img {
 .products-banner {
     background-image: url("../images/accessories/products.jpg");
     background-position: center top;
-    background-size: 100% 35%;    
+    background-size: contain;    
 }
 #productsTab {
     font-size: 21px;
